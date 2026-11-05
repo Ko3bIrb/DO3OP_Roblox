@@ -8,587 +8,944 @@
       <Properties>
         <string name="Name">MapPrototype</string>
       </Properties>
-      <Item class="Part" referent="2">
+      <Item class="Folder" referent="2">
         <Properties>
-          <string name="Name">EastBank</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">12111065</Color3uint8>
-          <token name="Material">1328</token>
-          <Vector3 name="Position">
-            <X>138</X>
-            <Y>-4</Y>
-            <Z>0</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>204</X>
-            <Y>8</Y>
-            <Z>600</Z>
-          </Vector3>
+          <string name="Name">River</string>
         </Properties>
+        <Item class="Part" referent="3">
+          <Properties>
+            <string name="Name">RiverBed</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">3693673</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>0</X>
+              <Y>-8.8</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>72</X>
+              <Y>11.2</Y>
+              <Z>600</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="4">
+          <Properties>
+            <string name="Name">RiverWater</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <Color3uint8 name="Color3uint8">3181235</Color3uint8>
+            <token name="Material">1568</token>
+            <Vector3 name="Position">
+              <X>0</X>
+              <Y>-2.88</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>70.8</X>
+              <Y>0.88</Y>
+              <Z>598.8</Z>
+            </Vector3>
+            <float name="Transparency">0.2</float>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="5">
+          <Properties>
+            <string name="Name">Waterfall</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <bool name="CanQuery">false</bool>
+            <Color3uint8 name="Color3uint8">3181235</Color3uint8>
+            <token name="Material">1568</token>
+            <Vector3 name="Position">
+              <X>0</X>
+              <Y>1.6</Y>
+              <Z>299.2</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>70.8</X>
+              <Y>32</Y>
+              <Z>1</Z>
+            </Vector3>
+            <float name="Transparency">0.2</float>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="6">
+          <Properties>
+            <string name="Name">WaterfallCliff</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>0</X>
+              <Y>14</Y>
+              <Z>310</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>112</X>
+              <Y>40</Y>
+              <Z>20</Z>
+            </Vector3>
+          </Properties>
+        </Item>
       </Item>
-      <Item class="Part" referent="3">
+      <Item class="Folder" referent="7">
         <Properties>
-          <string name="Name">EastShore</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">9875647</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>38</X>
-            <Y>-2.2</Y>
-            <Z>0</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>16</X>
-            <Y>4.8</Y>
-            <Z>600</Z>
-          </Vector3>
+          <string name="Name">Rocks</string>
         </Properties>
+        <Item class="Part" referent="8">
+          <Properties>
+            <string name="Name">EastRock_01</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>5.8</Y>
+              <Z>-264</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>12</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="9">
+          <Properties>
+            <string name="Name">EastRock_02</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>7.8</Y>
+              <Z>-216</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>16</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="10">
+          <Properties>
+            <string name="Name">EastRock_03</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>9.8</Y>
+              <Z>-168</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>20</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="11">
+          <Properties>
+            <string name="Name">EastRock_04</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>3.8</Y>
+              <Z>-120</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>8</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="12">
+          <Properties>
+            <string name="Name">EastRock_05</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>5.8</Y>
+              <Z>-72</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>12</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="13">
+          <Properties>
+            <string name="Name">EastRock_06</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>7.8</Y>
+              <Z>-24</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>16</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="14">
+          <Properties>
+            <string name="Name">EastRock_07</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>9.8</Y>
+              <Z>24</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>20</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="15">
+          <Properties>
+            <string name="Name">EastRock_08</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>3.8</Y>
+              <Z>72</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>8</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="16">
+          <Properties>
+            <string name="Name">EastRock_09</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>5.8</Y>
+              <Z>120</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>12</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="17">
+          <Properties>
+            <string name="Name">EastRock_10</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>7.8</Y>
+              <Z>168</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>16</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="18">
+          <Properties>
+            <string name="Name">EastRock_11</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>9.8</Y>
+              <Z>216</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>20</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="19">
+          <Properties>
+            <string name="Name">EastRock_12</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>72</X>
+              <Y>3.8</Y>
+              <Z>264</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>8</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="20">
+          <Properties>
+            <string name="Name">WestRock_01</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>5.8</Y>
+              <Z>-264</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>12</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="21">
+          <Properties>
+            <string name="Name">WestRock_02</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>7.8</Y>
+              <Z>-216</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>16</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="22">
+          <Properties>
+            <string name="Name">WestRock_03</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>9.8</Y>
+              <Z>-168</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>20</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="23">
+          <Properties>
+            <string name="Name">WestRock_04</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>3.8</Y>
+              <Z>-120</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>8</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="24">
+          <Properties>
+            <string name="Name">WestRock_05</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>5.8</Y>
+              <Z>-72</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>12</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="25">
+          <Properties>
+            <string name="Name">WestRock_06</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>7.8</Y>
+              <Z>-24</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>16</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="26">
+          <Properties>
+            <string name="Name">WestRock_07</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>9.8</Y>
+              <Z>24</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>20</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="27">
+          <Properties>
+            <string name="Name">WestRock_08</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>3.8</Y>
+              <Z>72</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>8</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="28">
+          <Properties>
+            <string name="Name">WestRock_09</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>5.8</Y>
+              <Z>120</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>12</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="29">
+          <Properties>
+            <string name="Name">WestRock_10</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>7.8</Y>
+              <Z>168</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>16</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="30">
+          <Properties>
+            <string name="Name">WestRock_11</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>9.8</Y>
+              <Z>216</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>20</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="31">
+          <Properties>
+            <string name="Name">WestRock_12</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">5072499</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-72</X>
+              <Y>3.8</Y>
+              <Z>264</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>8</X>
+              <Y>8</Y>
+              <Z>12</Z>
+            </Vector3>
+          </Properties>
+        </Item>
       </Item>
-      <Item class="Part" referent="4">
+      <Item class="Folder" referent="32">
         <Properties>
-          <string name="Name">EastShoreRock_+06</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>24</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
+          <string name="Name">Terrain</string>
         </Properties>
-      </Item>
-      <Item class="Part" referent="5">
-        <Properties>
-          <string name="Name">EastShoreRock_+18</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>72</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="6">
-        <Properties>
-          <string name="Name">EastShoreRock_+30</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>120</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="7">
-        <Properties>
-          <string name="Name">EastShoreRock_+42</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>168</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="8">
-        <Properties>
-          <string name="Name">EastShoreRock_+54</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>216</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="9">
-        <Properties>
-          <string name="Name">EastShoreRock_+66</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>264</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="10">
-        <Properties>
-          <string name="Name">EastShoreRock_-06</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>-24</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="11">
-        <Properties>
-          <string name="Name">EastShoreRock_-18</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>-72</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="12">
-        <Properties>
-          <string name="Name">EastShoreRock_-30</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>-120</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="13">
-        <Properties>
-          <string name="Name">EastShoreRock_-42</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>-168</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="14">
-        <Properties>
-          <string name="Name">EastShoreRock_-54</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>-216</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="15">
-        <Properties>
-          <string name="Name">EastShoreRock_-66</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>48</X>
-            <Y>0.2</Y>
-            <Z>-264</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="16">
-        <Properties>
-          <string name="Name">RiverBed</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">3693673</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>0</X>
-            <Y>-8.8</Y>
-            <Z>0</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>72</X>
-            <Y>11.2</Y>
-            <Z>600</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="17">
-        <Properties>
-          <string name="Name">RiverWater</string>
-          <bool name="Anchored">true</bool>
-          <bool name="CanCollide">false</bool>
-          <bool name="CanQuery">false</bool>
-          <Color3uint8 name="Color3uint8">3181235</Color3uint8>
-          <token name="Material">1568</token>
-          <Vector3 name="Position">
-            <X>0</X>
-            <Y>-2.88</Y>
-            <Z>0</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>70.8</X>
-            <Y>0.88</Y>
-            <Z>598.8</Z>
-          </Vector3>
-          <float name="Transparency">0.2</float>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="18">
-        <Properties>
-          <string name="Name">Waterfall</string>
-          <bool name="Anchored">true</bool>
-          <bool name="CanCollide">false</bool>
-          <bool name="CanQuery">false</bool>
-          <Color3uint8 name="Color3uint8">3181235</Color3uint8>
-          <token name="Material">1568</token>
-          <Vector3 name="Position">
-            <X>0</X>
-            <Y>1.6</Y>
-            <Z>299.2</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>70.8</X>
-            <Y>32</Y>
-            <Z>1</Z>
-          </Vector3>
-          <float name="Transparency">0.2</float>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="19">
-        <Properties>
-          <string name="Name">WaterfallCliff</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>0</X>
-            <Y>14</Y>
-            <Z>310</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>112</X>
-            <Y>40</Y>
-            <Z>20</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="20">
-        <Properties>
-          <string name="Name">WestBank</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">12111065</Color3uint8>
-          <token name="Material">1328</token>
-          <Vector3 name="Position">
-            <X>-138</X>
-            <Y>-4</Y>
-            <Z>0</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>204</X>
-            <Y>8</Y>
-            <Z>600</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="21">
-        <Properties>
-          <string name="Name">WestShore</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">9875647</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-38</X>
-            <Y>-2.2</Y>
-            <Z>0</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>16</X>
-            <Y>4.8</Y>
-            <Z>600</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="22">
-        <Properties>
-          <string name="Name">WestShoreRock_+06</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>24</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="23">
-        <Properties>
-          <string name="Name">WestShoreRock_+18</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>72</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="24">
-        <Properties>
-          <string name="Name">WestShoreRock_+30</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>120</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="25">
-        <Properties>
-          <string name="Name">WestShoreRock_+42</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>168</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="26">
-        <Properties>
-          <string name="Name">WestShoreRock_+54</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>216</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="27">
-        <Properties>
-          <string name="Name">WestShoreRock_+66</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>264</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="28">
-        <Properties>
-          <string name="Name">WestShoreRock_-06</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>-24</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="29">
-        <Properties>
-          <string name="Name">WestShoreRock_-18</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>-72</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="30">
-        <Properties>
-          <string name="Name">WestShoreRock_-30</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>-120</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="31">
-        <Properties>
-          <string name="Name">WestShoreRock_-42</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>-168</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="32">
-        <Properties>
-          <string name="Name">WestShoreRock_-54</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>-216</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
-      </Item>
-      <Item class="Part" referent="33">
-        <Properties>
-          <string name="Name">WestShoreRock_-66</string>
-          <bool name="Anchored">true</bool>
-          <Color3uint8 name="Color3uint8">6060165</Color3uint8>
-          <token name="Material">800</token>
-          <Vector3 name="Position">
-            <X>-48</X>
-            <Y>0.2</Y>
-            <Z>-264</Z>
-          </Vector3>
-          <Vector3 name="size">
-            <X>8</X>
-            <Y>3.6</Y>
-            <Z>12</Z>
-          </Vector3>
-        </Properties>
+        <Item class="Part" referent="33">
+          <Properties>
+            <string name="Name">EastBank_01</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-7</Y>
+              <Z>-270</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>14</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="34">
+          <Properties>
+            <string name="Name">EastBank_02</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-6</Y>
+              <Z>-210</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>16</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="35">
+          <Properties>
+            <string name="Name">EastBank_03</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-4.5</Y>
+              <Z>-150</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>19</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="36">
+          <Properties>
+            <string name="Name">EastBank_04</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-2</Y>
+              <Z>-90</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>24</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="37">
+          <Properties>
+            <string name="Name">EastBank_05</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-2.5</Y>
+              <Z>-30</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>23</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="38">
+          <Properties>
+            <string name="Name">EastBank_06</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-4.5</Y>
+              <Z>30</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>19</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="39">
+          <Properties>
+            <string name="Name">EastBank_07</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-7</Y>
+              <Z>90</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>14</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="40">
+          <Properties>
+            <string name="Name">EastBank_08</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-8</Y>
+              <Z>150</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>12</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="41">
+          <Properties>
+            <string name="Name">EastBank_09</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-5.5</Y>
+              <Z>210</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>17</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="42">
+          <Properties>
+            <string name="Name">EastBank_10</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>138</X>
+              <Y>-3</Y>
+              <Z>270</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>22</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="43">
+          <Properties>
+            <string name="Name">EastShore</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">7902886</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>38</X>
+              <Y>-2.2</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>16</X>
+              <Y>4.8</Y>
+              <Z>600</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="44">
+          <Properties>
+            <string name="Name">Foundation</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">8756907</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>0</X>
+              <Y>-18</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>480</X>
+              <Y>8</Y>
+              <Z>660</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="45">
+          <Properties>
+            <string name="Name">WestBank_01</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-7</Y>
+              <Z>-270</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>14</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="46">
+          <Properties>
+            <string name="Name">WestBank_02</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-5.5</Y>
+              <Z>-210</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>17</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="47">
+          <Properties>
+            <string name="Name">WestBank_03</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-3.5</Y>
+              <Z>-150</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>21</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="48">
+          <Properties>
+            <string name="Name">WestBank_04</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-1</Y>
+              <Z>-90</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>26</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="49">
+          <Properties>
+            <string name="Name">WestBank_05</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-3</Y>
+              <Z>-30</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>22</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="50">
+          <Properties>
+            <string name="Name">WestBank_06</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-5</Y>
+              <Z>30</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>18</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="51">
+          <Properties>
+            <string name="Name">WestBank_07</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-6.5</Y>
+              <Z>90</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>15</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="52">
+          <Properties>
+            <string name="Name">WestBank_08</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-7.5</Y>
+              <Z>150</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>13</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="53">
+          <Properties>
+            <string name="Name">WestBank_09</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">12111065</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-6</Y>
+              <Z>210</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>16</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="54">
+          <Properties>
+            <string name="Name">WestBank_10</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">10402505</Color3uint8>
+            <token name="Material">1328</token>
+            <Vector3 name="Position">
+              <X>-138</X>
+              <Y>-4</Y>
+              <Z>270</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>204</X>
+              <Y>20</Y>
+              <Z>59.6</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="55">
+          <Properties>
+            <string name="Name">WestShore</string>
+            <bool name="Anchored">true</bool>
+            <Color3uint8 name="Color3uint8">7902886</Color3uint8>
+            <token name="Material">800</token>
+            <Vector3 name="Position">
+              <X>-38</X>
+              <Y>-2.2</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3 name="size">
+              <X>16</X>
+              <Y>4.8</Y>
+              <Z>600</Z>
+            </Vector3>
+          </Properties>
+        </Item>
       </Item>
     </Item>
   </Item>
