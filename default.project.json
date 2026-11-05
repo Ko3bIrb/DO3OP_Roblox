@@ -2,9 +2,721 @@
   "name": "DO3OP_Map",
   "tree": {
     "$className": "DataModel",
-    "ServerScriptService": {
-      "$className": "ServerScriptService",
-      "$path": "src/ServerScriptService"
+    "Workspace": {
+      "$className": "Workspace",
+      "MapPrototype": {
+        "$className": "Folder",
+        "WestBank": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              204.0,
+              8.0,
+              600.0
+            ],
+            "Position": [
+              -138.0,
+              -4.0,
+              0
+            ],
+            "Color": [
+              0.72,
+              0.8,
+              0.85
+            ],
+            "Material": "Snow"
+          }
+        },
+        "EastBank": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              204.0,
+              8.0,
+              600.0
+            ],
+            "Position": [
+              138.0,
+              -4.0,
+              0
+            ],
+            "Color": [
+              0.72,
+              0.8,
+              0.85
+            ],
+            "Material": "Snow"
+          }
+        },
+        "WestShore": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              16.0,
+              4.8,
+              600.0
+            ],
+            "Position": [
+              -38.0,
+              -2.2,
+              0
+            ],
+            "Color": [
+              0.59,
+              0.69,
+              0.75
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShore": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              16.0,
+              4.8,
+              600.0
+            ],
+            "Position": [
+              38.0,
+              -2.2,
+              0
+            ],
+            "Color": [
+              0.59,
+              0.69,
+              0.75
+            ],
+            "Material": "Slate"
+          }
+        },
+        "RiverBed": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              72.0,
+              11.2,
+              600.0
+            ],
+            "Position": [
+              0,
+              -8.8,
+              0
+            ],
+            "Color": [
+              0.22,
+              0.36,
+              0.41
+            ],
+            "Material": "Slate"
+          }
+        },
+        "RiverWater": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              70.8,
+              0.88,
+              598.8
+            ],
+            "Position": [
+              0,
+              -2.88,
+              0
+            ],
+            "Color": [
+              0.19,
+              0.54,
+              0.7
+            ],
+            "Material": "Glass",
+            "CanCollide": false,
+            "CanQuery": false,
+            "Transparency": 0.2
+          }
+        },
+        "WaterfallCliff": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              112.0,
+              40.0,
+              20.0
+            ],
+            "Position": [
+              0,
+              14.0,
+              310.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "Waterfall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              70.8,
+              32.0,
+              1.0
+            ],
+            "Position": [
+              0,
+              1.6,
+              299.2
+            ],
+            "Color": [
+              0.19,
+              0.54,
+              0.7
+            ],
+            "Material": "Glass",
+            "CanCollide": false,
+            "CanQuery": false,
+            "Transparency": 0.2
+          }
+        },
+        "WestShoreRock_-66": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              -264.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_-54": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              -216.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_-42": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              -168.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_-30": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              -120.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_-18": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              -72.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_-06": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              -24.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_+06": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              24.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_+18": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              72.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_+30": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              120.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_+42": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              168.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_+54": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              216.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "WestShoreRock_+66": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              -48.0,
+              0.2,
+              264.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_-66": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              -264.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_-54": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              -216.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_-42": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              -168.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_-30": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              -120.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_-18": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              -72.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_-06": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              -24.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_+06": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              24.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_+18": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              72.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_+30": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              120.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_+42": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              168.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_+54": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              216.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        },
+        "EastShoreRock_+66": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8.0,
+              3.6,
+              12.0
+            ],
+            "Position": [
+              48.0,
+              0.2,
+              264.0
+            ],
+            "Color": [
+              0.36,
+              0.47,
+              0.52
+            ],
+            "Material": "Slate"
+          }
+        }
+      }
     }
   }
 }
