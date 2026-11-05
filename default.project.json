@@ -1,9 +1,0 @@
-{
-  "name": "DO3OP_Roblox",
-  "tree": {
-    "$className": "DataModel",
-    "Workspace": {
-      "$className": "Workspace"
-    }
-  }
-}
