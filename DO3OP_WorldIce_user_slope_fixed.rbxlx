@@ -2992,7 +2992,7 @@ ZTUzMWU5ZjM3]]></BinaryString>
 						<bool name="CastShadow">false</bool>
 						<string name="CollisionGroup">Default</string>
 						<int name="CollisionGroupId">0</int>
-						<Color3uint8 name="Color3uint8">4278217145</Color3uint8>
+						<Color3uint8 name="Color3uint8">4278746572</Color3uint8>
 						<PhysicalProperties name="CustomPhysicalProperties">
 							<CustomPhysics>false</CustomPhysics>
 						</PhysicalProperties>
@@ -3007,7 +3007,7 @@ ZTUzMWU5ZjM3]]></BinaryString>
 						<token name="LeftSurfaceInput">0</token>
 						<bool name="Locked">false</bool>
 						<bool name="Massless">false</bool>
-						<token name="Material">1568</token>
+						<token name="Material">256</token>
 						<string name="MaterialVariantSerialized"></string>
 						<CoordinateFrame name="PivotOffset">
 							<X>0</X>
@@ -3038,7 +3038,7 @@ ZTUzMWU5ZjM3]]></BinaryString>
 						<float name="TopParamB">0.5</float>
 						<token name="TopSurface">0</token>
 						<token name="TopSurfaceInput">0</token>
-						<float name="Transparency">0.200000003</float>
+						<float name="Transparency">0.08</float>
 						<Vector3 name="Velocity">
 							<X>0</X>
 							<Y>0</Y>
@@ -3130,7 +3130,7 @@ ZTUzMWU5ZjM3]]></BinaryString>
 						<bool name="CastShadow">false</bool>
 						<string name="CollisionGroup">Default</string>
 						<int name="CollisionGroupId">0</int>
-						<Color3uint8 name="Color3uint8">4278217145</Color3uint8>
+						<Color3uint8 name="Color3uint8">4278746572</Color3uint8>
 						<PhysicalProperties name="CustomPhysicalProperties">
 							<CustomPhysics>false</CustomPhysics>
 						</PhysicalProperties>
@@ -3145,7 +3145,7 @@ ZTUzMWU5ZjM3]]></BinaryString>
 						<token name="LeftSurfaceInput">0</token>
 						<bool name="Locked">false</bool>
 						<bool name="Massless">false</bool>
-						<token name="Material">1568</token>
+						<token name="Material">256</token>
 						<string name="MaterialVariantSerialized"></string>
 						<CoordinateFrame name="PivotOffset">
 							<X>-5.49842644</X>
@@ -3176,7 +3176,7 @@ ZTUzMWU5ZjM3]]></BinaryString>
 						<float name="TopParamB">0.5</float>
 						<token name="TopSurface">0</token>
 						<token name="TopSurfaceInput">0</token>
-						<float name="Transparency">0.200000003</float>
+						<float name="Transparency">0.08</float>
 						<Vector3 name="Velocity">
 							<X>0</X>
 							<Y>0</Y>

@@ -26,8 +26,8 @@ for _, object in ipairs(world:GetDescendants()) do
         end
         local color = colors[group] or colors.snow
         object.Color = color
-        object.Material = group == "water" and Enum.Material.Glass or Enum.Material.SmoothPlastic
-        object.Transparency = group == "water" and 0.2 or 0
+        object.Material = Enum.Material.SmoothPlastic
+        object.Transparency = group == "water" and 0.08 or 0
         object.CastShadow = group ~= "water"
         pcall(function() object.TextureID = "" end)
         if group == "water" then object.CanCollide = false end
